@@ -1,0 +1,117 @@
+.container {
+    font-family: 'Inter', sans-serif;
+    margin-top: -588px;
+    margin-left: 678px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 86px;
+    }
+
+    li {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.875rem;
+        color: rgba(33, 37, 41, 1);
+        list-style-type: none;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .value {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        color: rgba(33, 37, 41, 1);
+        margin-top: -28px;
+        margin-left: 390px;
+    }
+
+    .typeValue {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        color: rgba(33, 37, 41, 1);
+        margin-left: 23px;
+    }
+
+    .delete {
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        color: rgba(33, 37, 41, 1);
+        margin-left: 359px;
+        cursor: pointer;
+    }
+
+    .entradaItem {
+        img {
+            margin-left: -20px;
+        }
+
+        p {
+            margin-top: -94px;
+            margin-left: 0px;
+        }
+
+        .value {
+            margin-top: -28px;
+            margin-left: 390px;
+        }
+
+        .delete {
+            margin-left: 338px;
+        }
+    }
+}
+
+
+
+@media (max-width: 420px) {
+    .container {
+        margin-top: 0px;
+        margin-left: 32px;
+
+
+        ul {            
+            margin-left: -18px;
+            gap: 0px;
+        }
+        
+        li {
+            margin-bottom: 38px;
+        }
+
+        .value {
+            margin-top: -6px;
+            margin-left: 0px;
+        }
+
+        .typeValue {
+            margin-left: 0px;
+        }
+
+        .delete {
+            margin-left: 48px;
+        }
+        
+        .entradaItem {
+            p {
+                margin-top: -104px;
+            }
+    
+            .value {
+                margin-top: -13px;
+                margin-left: 0px;
+            }
+            
+            .delete {
+                margin-left: 48px;
+            }
+        }
+    }
+}
