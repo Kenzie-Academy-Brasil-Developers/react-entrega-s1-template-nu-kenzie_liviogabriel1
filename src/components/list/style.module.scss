@@ -2,6 +2,13 @@
     font-family: 'Inter', sans-serif;
     margin-top: -588px;
     margin-left: 678px;
+    
+    .listEmpty {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        margin-top: 30px;
+    }
 
     ul {
         display: flex;
@@ -17,8 +24,13 @@
         list-style-type: none;
     }
 
-    p {
+    img {
         margin-top: 0px;
+        margin-left: -21px;
+    }
+
+    p {
+        margin-top: -96px;
         margin-left: 0px;
     }
 
@@ -39,12 +51,14 @@
         margin-left: 0px;
     }
 
-    .delete {
-        font-size: 0.75rem;
+    .deleteButton {
+        font-family: 'Inter',sans-serif;
+        font-size: 0.625rem;
         font-weight: 400;
-        line-height: 1.375rem;
+        line-height: 0.853rem;
+        border: none;
         color: rgba(33, 37, 41, 1);
-        margin-left: 350px;
+        margin-left: 348px;
         cursor: pointer;
     }
 
@@ -67,7 +81,7 @@
             margin-left: 0px;
         }
 
-        .delete {
+        .deleteButton {
             margin-left: 353px;
         }
     }

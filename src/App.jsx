@@ -4,7 +4,7 @@ import Form from './components/form/form';
 import TotalMoney from './components/totalMoney/totalMoney';
 import List from './components/list/list';
 
-function App() {
+const App = () => {
   const [totalGastos, setTotalGastos] = useState(0);
   const [gastosList, setGastosList] = useState([]);
 
@@ -37,7 +37,7 @@ function App() {
         setGastosList={setGastosList}
       />
       <TotalMoney totalGastos={totalGastos} />
-      <List gastosList={gastosList} handleDelete={handleDelete} />
+      <List gastosList={gastosList} handleDelete={handleDelete}  />
     </>
   );
 }

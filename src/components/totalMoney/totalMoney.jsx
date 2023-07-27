@@ -2,6 +2,10 @@ import React from 'react';
 import styles from './style.module.scss';
 
 const TotalMoney = ({ totalGastos }) => {
+  if (totalGastos <= 0) {
+    return null;
+  }
+
   return (
     <div className={styles.container}>
       <p>Valor total: <span>R${totalGastos.toFixed(2)}</span></p>
