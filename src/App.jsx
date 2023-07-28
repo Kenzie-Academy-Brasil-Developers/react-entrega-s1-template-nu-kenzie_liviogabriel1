@@ -36,7 +36,7 @@ const App = () => {
         gastosList={gastosList}
         setGastosList={setGastosList}
       />
-      <TotalMoney totalGastos={totalGastos} />
+      <TotalMoney totalGastos={totalGastos} gastosList={gastosList} />
       <List gastosList={gastosList} handleDelete={handleDelete}  />
     </>
   );

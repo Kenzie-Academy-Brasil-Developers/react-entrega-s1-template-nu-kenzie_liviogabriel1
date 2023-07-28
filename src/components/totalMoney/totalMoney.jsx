@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './style.module.scss';
 
-const TotalMoney = ({ totalGastos }) => {
-  if (totalGastos <= 0) {
+const TotalMoney = ({ totalGastos, gastosList }) => {
+  if (gastosList.length === 0) {
     return null;
   }
 

@@ -6,7 +6,7 @@ import rectangle2 from '../../assets/rectangle2.svg';
 const List = ({ gastosList, handleDelete }) => {
   return (
     <div className={styles.container}>
-      <h3>Resumo financeiro</h3>
+      <h3 className={gastosList.length === 0 ? styles.h3Empty : ''}>Resumo financeiro</h3>
       {gastosList.length === 0 ? (
         <p className={styles.listEmpty}>Você ainda não possui nenhum lançamento</p>
       ) : (
